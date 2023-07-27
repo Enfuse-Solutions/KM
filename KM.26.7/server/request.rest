@@ -1,0 +1,12 @@
+POST http://localhost:8080/register/employee
+Content-Type: application/json
+
+{
+    "fullName" : "admisn",
+    "username" : "admisn",
+    "password" : "emp123",
+    "role" : "Employee", 
+    "email" : "hrs@gmail.com",
+    "category": "Assessment",
+    "topic": "HR"
+}
